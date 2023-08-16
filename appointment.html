@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSEI Appointment</title>
+    <link rel="stylesheet" href="appointment.css" >
+</head>
+<body>
+    <div class="bf-container">
+        <div class="bf-body">
+            <div class="bf-head">
+                <h1>Book Your Appointment </h1>
+                <p>- Lets Start To Connect with Staff 's -</p>
+            </div>
+            
+            <div class="bf-body-box">
+                <div class="bf-col-6">
+                    <P>Date</P>
+                    <input type="date" class="date" id="date" required>
+                </div>
+                <div class="bf-col-6">
+                    <P>Attendees</P>
+                    <select style="margin-right:100px ;">
+                        <option>Select</option>
+                        <option type="1">1</option>
+                        <option type="2">2</option>
+                        <option type="3">3</option>
+                    </select> 
+
+                </div>
+            </div>
+             <div class="start-time">
+                    <div class="bf-col-6">
+                        <p>Start Time</p>
+                        <input type="time" name="time" id="time" required>
+                    </div>
+                    <div class="bf-col-6" >
+                        <P >End Time</P>
+                        <input style="margin-right:70px;" type="time" name="time" id="time" required>
+                    </div>
+                </div>
+            <div class="tittle">
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <p>Tittle</p>
+                        <textarea name="tittle" id="tittle" cols="20" rows="2"></textarea>
+                    </div>
+                    <div class="bf-col-6">
+                        <P>Description</P>
+                        <textarea name="tittle" id="tittle" cols="30" rows="4"></textarea>
+                    </div>
+                </div>
+                
+        </div>
+        <div class="bf-col-3">
+            <button class="button button1" value="Sumbit"><a href="index.html" style="text-decoration: none;">Sumbit</a></button>
+        </div>
+    </div>
+</body>
+</html>
